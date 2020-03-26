@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">CurrentLocationTracker</string>
-    <string name="map_key" translatable="false">AIzaSyBNChcAxl4S8lwqFHEMHgutBrc-bNFKFQM</string>
+    <string name="map_key" translatable="false">Your Api KeY HERE</string>
     <string name="title_activity_maps">Map</string>
 </resources>
