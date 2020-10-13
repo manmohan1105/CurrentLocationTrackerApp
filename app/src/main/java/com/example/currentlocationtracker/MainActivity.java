@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity  implements OnMapReadyCallba
                     SupportMapFragment supportMapFragment=(SupportMapFragment)
                             getSupportFragmentManager().findFragmentById( R.id.google_map );
                     supportMapFragment.getMapAsync( MainActivity.this );
+		Log.i("LongiLati:",currentLocation.getLatitude() +""+currentLocation.getLongitude());
                 }
             }
         } );
@@ -63,6 +64,8 @@ public class MainActivity extends AppCompatActivity  implements OnMapReadyCallba
 
     }
 
+
+	//It works only when you give the permissions for location
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode){
